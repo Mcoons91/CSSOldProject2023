@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body>
+
+<img src="#" alt="#">
+
+<div class="">
+ <h1>Important Notes from Web Development Bootcamp Udemy Course</h1>
+ <h4>See HTML notes below</h4>
+
+ <!-- Display tag and settings:
+    Common Block Elements - Paragraphs <p>, Headers (H1 - H6), Lists and List items (ol, ul, li), Divisions (Divs), and Forms (<form>).
+        Block elements length will take up a whole webpage by default. Must change Display element of these to adjust this if needed.
+    
+        Inline Display Elements - Span (<Span>), Image (Img), Anchors (<a>).
+            Span allows you to make a change to a block element within the same line. These elements only take up as much space as it needs to. It should be used in conjunction with CSS. Span tags can also be used as a stand alone tag and does not have to be nested in for example a paragraph tag. It can be used on it its own. 
+            
+            For example:
+            <p><span class="pro">pro</span>grammer<p> - the class being .pro on your stylesheet. 
+    
+                Pros and Cons of inline vs block elements
+                Inline elements width cannot be changed using CSS, thus it is not a good alternative for block elements overall. However, block elements can generally be changed using CSS and the Display tag. 
+    
+                To eliminate issues with either element you can use Display: inline-block; which allows you to use the best of both worlds. You can then change the width and keep the elements side by side. 
+    
+                Lastly the display tag Display: None; is good for if you want to hide an element within an element flow. It acts as if the element was deleted out and continues the element flow one after the other. 
+    
+                Additionally, you could use the visibility tag to hide an element but still leave a noticeable gap or spacing between elements. Ex - Visibility: hidden;
+               
+    CSS Positioning and Default Settings:
+        
+    1. Content is Everything.
+    2. Order comes from HTML code - default layout order of browsers will generally read top to bottom unless an exception is present or a setting is present that reads the code otherwise. 
+    3. Children sit on top of parents. Children elements will sit on top of the parent elements in HTML. Example is a heading or paragraph element in a Div element. <div><h1></h1></div>. If the H1 were on the outside of this div element we would not see that element at all. 
+
+    Position:
+    1. Static - a fixed position setting.
+    2. Relative - can be moved around the elements around them.
+    3. Absolute - can be moved anywhere on the webpage. 
+    4. Fixed - good for nav and menu bars that should stay fixed in place when scrolling. 
+                
+    Centering elements:
+     text-align: center; When used in the body tag it will center everything within the body tag. 
+
+     Another method is setting a width to a percentage, such as 10%, and then using the auto option for the margin. To center an H1 tag for example, set the width to 10% and then apply the tag margin: 0 auto 0 auto; This will center the element horizontally on the page. The short-hand version is margin: 0 auto; which does the same thing as the longer version above. 
+    -->
+
+    <!--Font sizing quick note:
+        px = static
+        % = dynamic
+        em = dynamic
+        rem = (stands for root em) - means ignore all the parent settings for the font size and just set the element to the rem setting listed. Angela's number 1 recommendation for sizing elements because it is by far the most adaptable. 
+
+        font-size: px or % or em; (16px is equal to 100% is equal to 1em. 16px = 100% = 1em.)
+
+        Why use on over the other? Dynamic vs static sizing and accessibility. With Dynamic sizing the parent will overrule the child's settings. So if the body tag holding the h1 tag has a dynamic sizing rule, it will overrule the sizing rule in the H1 tag and nearly double the size you see. Be careful when applying sizing to parent/child elements. Static sizes in both the parent and child however, will not effect the other. 
+
+        Exception with the introduction of CSS3 and rem (see above).
+    -->
+    <!--Float and Clear properties:
+    Note: only use the float property when absolutely necessary. It is used to often and can cause other issues if you used in the wrong way or too frequently.-->
+
+</div>
+
+</body>
+</html>
